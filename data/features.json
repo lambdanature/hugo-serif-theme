@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "free_consultation_title",
+    "description": "free_consultation_desc",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "certified_accountants_title",
+    "description": "certified_accountants_desc",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "tax_compliance_title",
+    "description": "tax_compliance_desc",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]

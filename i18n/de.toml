@@ -1,0 +1,29 @@
+[contact]
+other = "Kontakt"
+
+[phone]
+other = "Telefon"
+
+[email]
+other = "Email"
+
+[view_all_services]
+other = "Alle Dienstleistungen"
+
+[free_consultation_title]
+other = "Kostenlose Beratung"
+
+[free_consultation_desc]
+other = "Neukunden erhalten eine unverbindliche Beratung."
+
+[certified_accountants_title]
+other = "Wirtschaftsprüfer"
+
+[certified_accountants_desc]
+other = "Alle Mitglieder unseres Teams sind Wirtschaftsprüfer."
+
+[tax_compliance_title]
+other = "Steuerkonformität"
+
+[tax_compliance_desc]
+other = "Wir bleiben über die neuesten Änderungen der Abgabenordnung auf dem Laufenden."

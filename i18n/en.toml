@@ -1,0 +1,29 @@
+[contact]
+other = "Contact"
+
+[phone]
+other = "Phone"
+
+[email]
+other = "Email"
+
+[view_all_services]
+other = "View All Services"
+
+[free_consultation_title]
+other = "Free Consultation"
+
+[free_consultation_desc]
+other = "New clients recieve an obligation free consultation."
+
+[certified_accountants_title]
+other = "Certified Accountants"
+
+[certified_accountants_desc]
+other = "All members of our team are certified accountants."
+
+[tax_compliance_title]
+other = "Tax Compliance"
+
+[tax_compliance_desc]
+other = "We stay up to date on the latest changes to the tax code."

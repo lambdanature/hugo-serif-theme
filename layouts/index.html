@@ -47,7 +47,7 @@
     {{ if not .Site.Params.homepage.hide_view_all_services }}
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "services/" | relURL }}">View All Services</a>
+        <a class="button button-primary" href="{{ "services/" | relLangURL }}">{{i18n "view_all_services"}}</a>
       </div>
     </div>
     {{ end }}
@@ -65,9 +65,9 @@
           {{ if .image }}
           <div class="feature-image"><img alt="{{ .Title }} logo" src="{{ .image | relURL }}" /></div>
           {{ end }}
-          <h2 class="feature-title">{{ .title }}</h2>
+          <h2 class="feature-title">{{ i18n .title }}</h2>
           <div class="feature-content">
-            <p>{{ .description }}</p>
+            <p>{{ i18n .description }}</p>
           </div>
         </div>
       </div>

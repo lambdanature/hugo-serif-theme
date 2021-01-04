@@ -8,10 +8,9 @@
             {{ $selected := false }}
             {{ if eq $pageLang .Lang}}
               {{/* NOTE: in case you want to build a better language switcher ;) */}}
-              {{/* <li><a href="{{ $translation.RelPermalink }}" class="active">[{{ .LanguageName }}]</a></li> */}}
+              <li class="menu-item-{{ .Lang | lower }} active"><a href="{{ $translation.RelPermalink }}">[{{ .Lang | upper }}]</a></li>
             {{ else }}
-              {{/*<li><a href="{{ $translation.RelPermalink }}">[{{ .LanguageName }}]</a></li>*/}}
-              <li><a href="{{ $translation.RelPermalink }}">[{{ .Lang | upper }}]</a></li>
+              <li class="menu-item-{{ .Lang | lower }}"><a href="{{ $translation.RelPermalink }}">[{{ .Lang | upper }}]</a></li>
             {{ end }}
           {{ end }}
         {{ end }}

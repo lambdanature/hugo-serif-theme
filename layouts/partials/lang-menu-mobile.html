@@ -1,0 +1,18 @@
+    {{ if .Site.IsMultiLingual }}
+      {{ $siteLanguages := .Site.Languages}}
+      {{ $pageLang := .Page.Lang}}
+      {{ range .Page.AllTranslations }}
+        {{ $translation := .}}
+        {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+            {{ $selected := false }}
+            {{ if eq $pageLang .Lang}}
+              {{/* NOTE: in case you want to build a better language switcher ;) */}}
+              <li class="menu-item-{{ .Lang | lower }} active"><a href="{{ $translation.RelPermalink }}">[{{ .Lang | upper }}]</a></li>
+            {{ else }}
+              <li class="menu-item-{{ .Lang | lower }}"><a href="{{ $translation.RelPermalink }}">[{{ .Lang | upper }}]</a></li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }} {{/* end of multilingual support */}}
